@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "rsa.key",
+      "type": "com.xiao.config.RsaPath",
+      "sourceType": "com.xiao.config.RsaPath"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rsa.key.private-key-path",
+      "type": "java.lang.String",
+      "sourceType": "com.xiao.config.RsaPath"
+    },
+    {
+      "name": "rsa.key.public-key-path",
+      "type": "java.lang.String",
+      "sourceType": "com.xiao.config.RsaPath"
+    }
+  ],
+  "hints": []
+}

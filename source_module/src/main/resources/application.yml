@@ -1,0 +1,20 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/demo_database?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true
+    password: xxxx;
+    username: root
+mybatis:
+  type-aliases-package: com.xiao.entity
+  configuration:
+    map-underscore-to-camel-case: true
+
+logging:
+  level:
+    com.xiao: debug
+rsa:
+  key:
+    public-key-path: G:\temp\authRsa\rsa_id_key.pub
